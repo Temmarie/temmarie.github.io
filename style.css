@@ -507,11 +507,44 @@ button:focus {
 	color: #fff;
 }
 
-.mu-social-media{
-	display: inline;
-	float: left;
-	width: 100%;
+.down {
+	display: flex;
+	float: right;
+  width: 100%;
+  justify-content: center;
 }
+
+.down a {
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 15px;
+	border: 1px solid #333;
+	width: 35px;
+	height: 35px;
+	line-height: 32px;
+	text-align: center;
+	margin: 5px 5px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+.mu-social-media i {
+  color: white;
+}
+
+.down i {
+  color: black;
+}
+
+.down .ul {
+  display: flex;
+}
+
+.ul li {
+  list-style: none;
+}
+
 
 .mu-social-media h3 {
 	margin-top: 20px;

@@ -1452,3 +1452,16 @@ button:focus {
   margin-top: 10px;
 }
 /* end of style */
+
+#link-style {
+    padding: 0;
+    font-size: 14px;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    transition: none;
+}
+
+#link-style:hover {
+  background-color: transparent;
+}
